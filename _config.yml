@@ -63,5 +63,3 @@ theme: icarus
 deploy:
   type: git
   repo: git@github.com:jswh/remotecat.git
-admin:
-  deployCommand: 'npx hexo deploy'
