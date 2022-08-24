@@ -62,4 +62,5 @@ ignore: null
 theme: icarus
 deploy:
   type: git
-  repo: git@github.com:jswh/remotecat.git
+  branch: pages
+  repo: git@github.com:jswh/jswh.github.io.git
