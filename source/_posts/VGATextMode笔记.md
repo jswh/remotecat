@@ -1,5 +1,5 @@
 ---
-title: [RustOS]VGA Text Mode笔记
+title: VGA Text Mode笔记
 date: 2019-03-29 02:35:03
 tags:
 ---
@@ -9,7 +9,7 @@ tags:
 #### VGA Text Mode
 
 **Memory-mapped I/O** (**MMIO**) 是 CPU 驱动 I/O 外设的一种方式。简单得说，就是外设的操作地址（我不知道这里该如何解释）映射到了系统内存的一个区域，CPU 通过直接读写内存，来与 I/O 外设通信。
-
+<!--more-->
 Text Mode 是显卡进行显示输出的一种实现方式。显卡将显示区域划分成一个二维的矩阵（类似 excel ）每个单元格对应一个文字字符数据。单个字符确切的像素数据由显卡控制。
 
 VGA text mode，全称应该是 VGA-compatible text mode，是 Text Mode 的一种实现，用于兼容 VGA 的设备（或者说兼容 VGA 的设备，都有这种模式）。VGA text mode 规定，每个字符数据是个 2 字节的数据，前 8 位为字符的 askii 码，之后四位是文字颜色，再之后三位是背景颜色，最后一位控制是否闪烁。整个显示区域划分为 25 行 80 列（25行，每行80个字符）。 ![image](http://ww1.sinaimg.cn/large/0071ouepgy1g1gacwcic8j30yy03jjrc.jpg)

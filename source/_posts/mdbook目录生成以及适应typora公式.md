@@ -3,7 +3,8 @@ title: mdbook目录生成以及适应typora公式
 date: 2020-04-17 02:39:16
 tags:
 ---
-<!-- wp:paragraph --> [mdbook](https://rust-lang.github.io/mdBook/) 是一个rust写的的在线图书生成工具。原本目录需要自己写，写了个小脚本来基于文件名自动生成。另外我平时使用typora来写markdown，内联公式的符号和mdbook不同，脚本里也做了替换。Show you the code。
+[mdbook](https://rust-lang.github.io/mdBook/) 是一个rust写的的在线图书生成工具。原本目录需要自己写，写了个小脚本来基于文件名自动生成。另外我平时使用typora来写markdown，内联公式的符号和mdbook不同，脚本里也做了替换。Show you the code。
+<!--more-->
 
 ```
 import os

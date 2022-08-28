@@ -7,6 +7,7 @@ tags:
 
 只能说兴趣果然是最好的老师。之前编译原理看三段打瞌睡，死活读不下去，这下却是兴致满满了。只是Flex、Bison入门资料太少，网上写的那些文章都是浅尝辄止，完全没有可实践性。读手册又太过乏味。
 
+<!--more-->
 看来看去，还是[动物书的 Flex & Bison](http://web.iitd.ac.in/~sumeet/flex__bison.pdf) 读起来舒服。
 
 对于词法分析语法分析完全没有概念的同学，可以先看看[这个 PDF](http://www.capsl.udel.edu/courses/cpeg421/2012/slides/Tutorial-Flex_Bison.pdf) 了解一下，再读动物书会好一些，不然有些没头没脑。内容基本和书里的第一章重合，但简单介绍了一下 Flex/Bison 是用来做什么的。

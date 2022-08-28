@@ -1,11 +1,11 @@
-title: Remote Cat
-subtitle: 'remote job info collector'
-description: ''
-keywords: remote job
-author: remote-cat
+title: Jswh
+subtitle: 'Keep calm like a mirru lake'
+description: 'Jswh blog'
+keywords: blog
+author: jswh
 language: zh-CN
 timezone: ''
-url: http://www.remotecat.us
+url: https://www.jswh.me
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
